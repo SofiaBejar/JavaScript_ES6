@@ -1,0 +1,127 @@
+body {
+  background-color: #c5bfbf;
+  text-align: justify;
+  font-family: monospace;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.header {
+  background-color: #131212;
+  opacity: 0.9;
+  text-align: center;
+  padding: 5px;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.textHeader{
+  text-align: center; 
+  flex-grow: 1; 
+}
+
+.mifoto{
+  width: 50px;
+  float: right;
+}
+
+img{
+  display: block;
+  border-radius: 12%;
+  border: 2px solid #333;
+  width: 70px; 
+  margin: 20px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #68934f;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  border: 1px solid rgb(211,211,211,0.5);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+  background-color: #e3dcdc;
+}
+
+.cardTitle {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+  ;
+}
+
+.cardBody {
+  padding: 10px;
+  flex: 1 1 100%;
+  color: #6c6868;
+}
+
+.cardFooter {
+  background: rgba(84, 173, 84, 0.25);
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cardFooter a {
+  text-decoration: none;
+  color: rgba(26, 17, 83, 0.8);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.25);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #68934f;
+  opacity: 0.9;
+  text-align: center;
+  padding: 20px;
+  color: rgb(255,250,250,0.90);
+  text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+.miLogo{
+  width: 4%;  
+}
