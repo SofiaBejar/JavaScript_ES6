@@ -8,56 +8,80 @@
   <title>Javascript</title>
   <link href="./img/favicon.ico" rel="icon" type="image/x-icon" >
   <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Playfair Display'>
+  <script defer src="./js/login.js"></script>
 </head>
 
 <body>
   <!-- --------HEADER---------- -->
   <div class="header">
+    <img src="./img/camaleon.png">
     <div class="textHeader">
-      <h3>Ejemplos – FUNDAMENTOS DE JS (ES6)</h3>
+      <h1>FUNDAMENTOS DE JS</h1>
       <h4>Desarrollo WEB en entorno cliente</h4>
-      <h5>Plantilla03</h5>
     </div>
       <img src="img/miFoto.jpg">
   </div>
   <!-- ---------MENU----------- -->
-  <div class="topnav">
+  <div class="topnav" id="topnav" style="display: none;">
     <ul>
       <li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
       <li><a href="https://es.javascript.info/js">javascript.info</a></li>
       <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>  
-      <li><a href="https://github.com/SofiaBejar">GitHub</a></li>   
+      <li><a href="https://github.com/SofiaBejar">GitHub</a></li>  
     </ul>
   </div>
   <br />
+   <!-- ------LOGIN------ -->
+   <div style="display: block;" id="loginContent">
+      <div class="loginCard">
+        <div class="cardBody">
+          <form id="loginForm">
+            <span class="input-span">
+              <label for="username" class="label">Usuario</label>
+              <input type="text" id="username" name="username" placeholder="jota" required pattern="[A-Za-z]{3,}"/>
+            </span>
+            <span class="input-span">
+              <label for="password" class="label" >Contraseña</label>
+              <input type="password" id="password" name="password" placeholder="dejame" required/>
+            </span>
+            <span class="span" id="forgotPasword"><a href="#">Has olvidad la contraseña?</a></span>
+            <input class="submit" type="submit" value="Entrar" />
+            <span class="span">¿No tienes cuenta? <a href="#" id="signUp">Registrate</a></span>
+          </form>
+          <p id="loginMessage"></p>
+      </div>
+      </div>
+    </div>
+    <br />
   <!-- ------MAIN-CONTENT------ -->
-  <div class="container">
+  <div class="container" style="display: none;" id="mainContent">
     <div class="card">
       <div class="cardTitle">Titulo ejercicio 01</div>
       <div class="cardBody">
         <p>Descripción del ejercicio 01</p>
       </div>
-      <div class="cardFooter"><a href="./ejercicios/ejer01/index.html">&gt;&gt; Solución</a></div>
+      <div class="cardFooter"><a href="./ejercicios/ejer01/index.html"><button>Solución</button></a></div>
     </div>
     <div class="card">
       <div class="cardTitle">Titulo ejercicio 02</div>
       <div class="cardBody">
         <p>Descripción del ejercicio 02</p>
       </div>
-      <div class="cardFooter"><a href="./ejercicios/ejer02/index.html">&gt;&gt; Solución</a></div>
+      <div class="cardFooter"><a href="./ejercicios/ejer02/index.html"><button>Solución</button></a></div>
     </div>
     <div class="card">
       <div class="cardTitle">...</div>
       <div class="cardBody">
         <p>...</p>
       </div>
-      <div class="cardFooter"><a href="#">&gt;&gt; Solución</a></div>
+      <div class="cardFooter"><a href="#"><button class="neu-button">Solución</button></a></div>
     </div>
   </div>
   <br />
   <!-- ---------FOOT----------- -->
   <div class="footer">
-     Trabajo realizado por Sofía Béjar 𓆈
+    © Trabajo realizado por Sofía Béjar 
   </div>
 </body>
 
