@@ -1,36 +1,25 @@
 # JavaScript_ES6
 
-En esta plantilla nos encontramos con un index que da acceso a dos index 
-más, que encontramos dentro de la carpeta ejercicios.
-Estos dos ejercicios hacen lo mismo, es por ello que refactorizamos el 
-JavaScript para tener uno solo compartido.
+En esta página nos encontramos los ejercicios que vamos a hacer durante el curso en la asignatura de Desarrollo Web en Entorno Clientes.
 
-En el script.js, no encontramos con:
+## Login
 
-* document.getElementById("boton") - que lo que hace es obtener el 
-elemento con id = boton.
+Lo primero que vamos a encontrar es unapágina que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido.
 
-*document.getElementById("resultado") - que obtiene el elemento con id = 
-resultado).
+<div>
+<p style = 'text-align:center;'>
+<img width="1436" alt="loginPage" src="https://github.com/user-attachments/assets/33d9f4df-2762-4a4f-9b4e-0b12d5dbc4e0">
+</p>
+</div>
 
-* por último tengo un boton.addEventListener("click", function () - esto 
-añade un evento al botón para cuando se haga clic sobre el.
+## Contenido
 
-* si se hace click sobre el botón, se llama a la función mostrar, entonces 
-nos vamos a junciones.js y encontramos:
- 
-* "use strict" - que habilita el modo estricto en javaScript, y nos ayuda 
-a evitar errores comunes.
 
-* a continuación encontramos la función mostrar que lo que hace es:
+<img width="1436" alt="Captura de pantalla 2024-10-04 a las 19 44 06" src="https://github.com/user-attachments/assets/b8e750a4-bbd2-4e83-83be-5606547bbc27">
 
-	* console.log -  que muestra el siguiente mensaje en la consola 
-web: `Estoy mostrando el resultado del ${resultado.getAttribute('name')}`.
-Gracias al ${resultado.getAttribute('name')}, podemos generalizar esta 
-función para ambos ejercicios ya que está obteniendo el nombre y número 
-del ejercicio para ponerlo en la situación que corresponda.
 
-	* en el resultado.innerHTML cambiamos el contenido HTML con el ID 
-resultado, en este caso volvemos a repetir el 
-${resultado.getAttribute('name')}, para poder darle el nombre adecuado del 
-ejercicio.
+Una vez hemos conseguido entras tras pasar el login, encontramos la página principal de la web. En esta están expuestos los diferentes ejercicios, a los que podremos acceder para ver la resolución. 
+
+Además en la barra de anvegación podremos acceder a varios enlaces con información sobre JavaScript y también tenemos acceso direccto a mi GitHUb.
+
+
