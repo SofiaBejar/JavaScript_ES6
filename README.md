@@ -4,13 +4,12 @@ En esta página nos encontramos los ejercicios que vamos a hacer durante el curs
 
 ## Login
 
-Lo primero que vamos a encontrar es unapágina que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido.
+Lo primero que vamos a encontrar es unapágina que nos va a solicitar mediante ventqnas que introduzcamos un usuario y contraseña para poder entrar al contenido.
 
-<div>
-<p style = 'text-align:center;'>
-<img width="1436" alt="loginPage" src="https://github.com/user-attachments/assets/33d9f4df-2762-4a4f-9b4e-0b12d5dbc4e0">
-</p>
-</div>
+<img width="406" alt="Captura de pantalla 2024-10-04 a las 19 49 31" src="https://github.com/user-attachments/assets/4d344fb3-032c-4894-823a-da820eebb201"><img width="406" alt="Captura de pantalla 2024-10-04 a las 19 49 35" src="https://github.com/user-attachments/assets/8d3b5ac6-cd6d-4d33-ad5c-03e713534eab"><img width="406" alt="Captura de pantalla 2024-10-04 a las 19 49 38" src="https://github.com/user-attachments/assets/d413d681-db10-4c16-b713-20c8819e5aac">
+
+
+
 
 ## Contenido
 
