@@ -1,16 +1,15 @@
 "use strict"
-function login(){
     const sotredUsername = "jota";
     const storedPassword = "dejame";
 
-    const loginForm = document.getElementById("loginForm");
     const loginMessage = document.getElementById("loginMessage");
-    const topnav = document.getElementById("topnav");
-    const mainContent = document.getElementById("mainContent");
-    const loginContent = document.getElementById("loginContent");
     const usernameInput = document.getElementById("username");
     const passwordInput = document.getElementById("password");
-    const submitButton = loginForm.querySelector('input[type="submit"]');
+    const submitButton = document.getElementById("loginButton");
+
+    if(getCookie("verify") === "true"){ //la ubicación es con respecto a?
+        window.location.href="./ejercicios/index.html";
+    }
 
     document.getElementById("forgotPasword").onclick = function(){
         alert("Pero Jotaaa, si te la he dejado escrita!!!");
@@ -20,22 +19,21 @@ function login(){
     }
 
     submitButton.addEventListener("click", function (event) {
-        event.preventDefault();
         const usernameValue = usernameInput.value;
         const passwordValue = passwordInput.value;
 
-        if(usernameValue.length < 3){
+        const usernameTest = /^.{3,}$/;
+        if(!usernameTest.test(usernameValue)){
             alert("El nombre de usuario debe tener al menos 3 carácteres.");
         }
 
         if(usernameValue === sotredUsername && passwordValue === storedPassword){
             loginMessage.style.color = "green";
             loginMessage.innerText = "¡Bienvenido!";
+            setCookie("verify", "true", 1);
 
             setTimeout(function() {
-                loginContent.style.display = "none";
-                topnav.style.display = "block";
-                mainContent.style.display = "flex";
+                window.location.href = "./ejercicios/index.html";
             }, 2000); 
         }
         else{
@@ -51,7 +49,3 @@ function login(){
             }
         }
     }); 
-}
-window.onload = function() {
-    login();
-}
