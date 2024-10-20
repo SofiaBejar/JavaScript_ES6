@@ -23,16 +23,16 @@ Una vez hemos conseguido entrar tras pasar el login, encontramos la página prin
 Tenemos tres aplicaciones en funcionamiento:
 
 
-# 1. Un conversor de bases:
+### 1. Un conversor de bases:
 
 <img width="1278" alt="Conversor de Base" src="https://github.com/user-attachments/assets/6b620a60-9c24-4517-8cf9-77d7605f7887">
 
 
-# 2. Una minicalculadora:
+### 2. Una minicalculadora:
 
 <img width="1435" alt="Minicalculadora" src="https://github.com/user-attachments/assets/2281aff1-f0a5-4148-b880-9c5279540a5c">
 
-# 3. Un modificador de texto:
+### 3. Un modificador de texto:
 
 <img width="1435" alt="Modificador de Texto" src="https://github.com/user-attachments/assets/c48f50cc-4e80-4309-985b-cc2fe217e340">
 
