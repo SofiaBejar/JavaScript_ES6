@@ -4,7 +4,7 @@ En esta página nos encontramos los ejercicios que vamos a hacer durante el curs
 
 ## Login
 
-Lo primero que vamos a encontrar es una página que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido. En esta ocasion hemos implementado cookies.
+Lo primero que vamos a encontrar es una página que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido. En esta ocasion hemos implementado local storage.
 
 <div>
 <p style = 'text-align:center;'>
@@ -18,9 +18,9 @@ Una vez hemos conseguido entrar tras pasar el login, encontramos la página prin
 
 <img width="1278" alt="Captura de pantalla 2024-10-11 a las 23 37 17" src="https://github.com/user-attachments/assets/5f4caa61-501c-4e46-9690-d86c8259c8e9">
 
+__
 
-
-Tenemos dos aplicaciones en funcionamiento:
+Tenemos tres aplicaciones en funcionamiento:
 
 
 1. Un conversor de bases:
