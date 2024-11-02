@@ -4,7 +4,9 @@ En esta página nos encontramos los ejercicios que vamos a hacer durante el curs
 
 ## Login
 
-Lo primero que vamos a encontrar es una página que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido. En esta ocasion hemos implementado local storage.
+Lo primero que vamos a encontrar es una página que nos va a solicitar que introduzcamos un usuario y contraseña para poder entrar al contenido. En esta ocasion hemos implementado indexedDB.
+
+Gracias al indexedDB, hemos podido implementar las fincuiones de registrarse y recuperar contraseña.
 
 <div>
 <p style = 'text-align:center;'>
@@ -20,7 +22,7 @@ Una vez hemos conseguido entrar tras pasar el login, encontramos la página prin
 
 ## Aplicaciones
 
-Tenemos tres aplicaciones en funcionamiento:
+Tenemos cuatro aplicaciones en funcionamiento:
 
 
 ### 1. Un conversor de bases:
@@ -36,6 +38,9 @@ Tenemos tres aplicaciones en funcionamiento:
 
 <img width="1435" alt="Modificador de Texto" src="https://github.com/user-attachments/assets/c48f50cc-4e80-4309-985b-cc2fe217e340">
 
+### 4. Una calculadora de matrices:
+
+![Captura de pantalla 2024-11-02 a las 11 16 03](https://github.com/user-attachments/assets/86ca4a6f-fd25-4028-a789-c3096d12c8fc)
 
 
 Esta vez además gracias a local storage, podemos cerrar sesión y volver al login:
