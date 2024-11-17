@@ -20,7 +20,7 @@ Una vez hemos conseguido entrar tras pasar el login, encontramos la página prin
 
 ## Aplicaciones
 
-Tenemos tres aplicaciones en funcionamiento:
+Tenemos 8 aplicaciones en funcionamiento:
 
 
 ### 1. Un conversor de bases:
@@ -36,7 +36,28 @@ Tenemos tres aplicaciones en funcionamiento:
 
 <img width="1435" alt="Modificador de Texto" src="https://github.com/user-attachments/assets/c48f50cc-4e80-4309-985b-cc2fe217e340">
 
+### 4. Un generador y con minicalculadora de matrices:
 
+<img width="1433" alt="Captura de pantalla 2024-11-17 a las 14 25 53" src="https://github.com/user-attachments/assets/5c04dc69-c2d5-46f8-850c-b1e4fd9a2474">
+
+### 5. Un CRUD con Cookies:
+
+<img width="972" alt="Captura de pantalla 2024-11-17 a las 14 03 55" src="https://github.com/user-attachments/assets/c5873fb5-c7f1-49d3-bfbf-4f5970dea2d6">
+
+### 6. Un CRUD con Local Storage:
+
+<img width="852" alt="Captura de pantalla 2024-11-17 a las 14 10 45" src="https://github.com/user-attachments/assets/2b78b917-f33a-4962-869f-32c445a20811">
+
+### 7. Un CRUD con Session Storage:
+
+<img width="958" alt="Captura de pantalla 2024-11-17 a las 14 11 08" src="https://github.com/user-attachments/assets/46a580d1-79ba-4a65-ae6a-6c071d966bf6">
+
+### 8. Un CRUD con IndexedDB:
+Al que además le hemos agregado el uso de PokeApi, para traer información sobre Pokemons.
+
+<img width="1427" alt="Captura de pantalla 2024-11-17 a las 13 54 42" src="https://github.com/user-attachments/assets/a5f0343c-8340-4f88-8b2e-c686d1b858e3">
+
+--
 
 Esta vez además gracias a local storage, podemos cerrar sesión y volver al login:
 
