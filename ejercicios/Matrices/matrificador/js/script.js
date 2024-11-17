@@ -32,7 +32,7 @@ logOutButton.addEventListener("click", function (event) {
 });
 
 randomValue.addEventListener("click", function (event) {
-    randomValue();
+    randomValues();
 });
 
 createMatrix.addEventListener("click", function (event) {
