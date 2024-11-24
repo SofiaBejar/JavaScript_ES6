@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript resultado</title>
+  <link href="../../../img/favicon.ico" rel="icon" type="image/x-icon" >
+  <link href="../../../css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- --------HEADER---------- -->
+  <div class="header">
+    <img src="../../../img/camaleon.png">
+    <div class="textHeader">
+      <h1>FUNDAMENTOS DE JS</h1>
+      <h4>Desarrollo WEB en entorno cliente</h4>
+    </div>
+      <img src="../../../img/miFoto.jpg">
+  </div>
+  <!-- ---------MENU----------- -->
+  <div class="topnav" id="topnav" style="display: block;">
+    <ul>
+      <li><a href="https://www.w3schools.com/js/default.asp">w3schools</a></li>
+      <li><a href="https://es.javascript.info/js">javascript.info</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">MDN</a></li>  
+      <li><a href="https://github.com/SofiaBejar/JavaScript_ES6">GitHub</a></li>  
+      <div class="dropdown">
+        <button class="dropbtn">Numbers ▼</button>
+        <div class="dropdown-content">
+          <a href="../../Numbers/conversor/index.html" id="conversor">Conversor</a>
+          <a href="../../Numbers/minicalculadora/index.html" id="minicalculadora">Minicalculadora</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Strings ▼</button>
+        <div class="dropdown-content">
+          <a href="../../String/modificador/index.html" id="modificador">Modificador de texto</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Matrices ▼</button>
+        <div class="dropdown-content">
+          <a href="../../Matrices/matrificador/index.html" id="matrificador">Operaciones con matrices</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Almacena ▼</button>
+        <div class="dropdown-content">
+          <a href="../../Almacena/Cookies/index.html" id="conversor">Cookies</a>
+          <a href="../../Almacena/LocalStorage/index.html" id="localStorage">Local Storage</a>
+          <a href="../../Almacena/SessionStorage/index.html" id="sessionStorage">Session Storage</a>
+          <a href="../../Almacena/IndexedDB/index.html" id="indexDB">IndexDB</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Estructuras ▼</button>
+        <div class="dropdown-content">
+          <a href="./index.html" id="pila">Pila</a>
+          <a href="../Cola/index.html" id="cola">Cola</a>
+          <a href="../Lista/index.html" id="lista">Lista</a>
+        </div>
+      </div>
+      <li id="logOutButton" ><a href="#">Cerrar Sesión</a></li>
+    </ul>
+  </div>
+  <br />
+  <!-- ------MAIN-CONTENT------ -->
+  <div class="container">
+    <div class="card">
+      <div id="pokedex" class="cardTitle">Gestión de la colada con una Pila</div>
+      <div class="cardBody">
+        
+        <button id="putIn" class="Pokecalculate">Introducir prenda<br></button>
+        <button id="putOut" class="Pokecalculate">Lavar prenda<br></button>
+        <table>
+          <tbody id="tbody">
+            <tr id="crudResultado">
+              <td><p><b>No hay ropa en la colada.</b></p></td>
+            </tr>
+          </tbody> 
+        </table>
+        <p id="error"></p>
+      </div>
+      <div class="cardFooter"><a href="../../index.html"><button class="neu-button">Página Principal</button></a></div>
+    </div>
+  </div>
+  <br />
+  <!-- ---------FOOT----------- -->
+  <div class="footer">
+    © Trabajo realizado por Sofía Béjar 
+  </div>
+  <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

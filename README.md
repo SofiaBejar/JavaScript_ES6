@@ -20,7 +20,7 @@ Una vez hemos conseguido entrar tras pasar el login, encontramos la página prin
 
 ## Aplicaciones
 
-Tenemos 11 aplicaciones en funcionamiento:
+Tenemos 8 aplicaciones en funcionamiento:
 
 
 ### 1. Un conversor de bases:
@@ -56,21 +56,6 @@ Tenemos 11 aplicaciones en funcionamiento:
 Al que además le hemos agregado el uso de PokeApi, para traer información sobre Pokemons.
 
 <img width="1427" alt="Captura de pantalla 2024-11-17 a las 13 54 42" src="https://github.com/user-attachments/assets/a5f0343c-8340-4f88-8b2e-c686d1b858e3">
-
-### 9. Una Lista con POO:
-
-<img width="722" alt="Captura de pantalla 24 11 2024 a 22 24 17 p  m" src="https://github.com/user-attachments/assets/b812d066-2abf-49b5-89a8-f77cddca473b">
-
-
-### 10. Una Cola con POO:
-
-<img width="1440" alt="Captura de pantalla 24 11 2024 a 22 24 08 p  m" src="https://github.com/user-attachments/assets/48125ceb-8fd3-41ef-8ac6-b3a507660a72">
-
-
-### 11.Una Pila con POO:
-
-<img width="747" alt="Captura de pantalla 24 11 2024 a 22 24 01 p  m" src="https://github.com/user-attachments/assets/b8f76120-8dc9-403e-b9e9-4438357e4ca8">
-
 
 --
 

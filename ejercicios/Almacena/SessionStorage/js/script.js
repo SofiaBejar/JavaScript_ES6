@@ -1,5 +1,12 @@
 'use strict';
 
+const logOutButton = document.getElementById("logOutButton");
+
+logOutButton.addEventListener("click", function (event) {
+    console.log("quieres cerrar sesión");
+    window.location.href = "../../../../index.html";
+});
+
 let dataSession = []; 
 
 if (window.sessionStorage) {

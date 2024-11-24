@@ -25,6 +25,10 @@ td #value{
 table{
   margin: auto;
 }
+#tabletasks td{
+  padding: 15px;
+  text-align: start;
+}
 .crud td{
   padding: 20px;
   text-align: start;
