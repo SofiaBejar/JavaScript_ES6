@@ -31,7 +31,7 @@ putIn.addEventListener("click", function (event) {
 });
 
 putOut.addEventListener("click", function (event) {
-    if(laundry.size === 0){
+    if(laundry.empty()){
         tbody.innerHTML = "<br><b>No hay ropa en la colada.</b>";
     } 
     else{

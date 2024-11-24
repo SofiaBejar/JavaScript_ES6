@@ -30,8 +30,8 @@ putIn.addEventListener("click", function (event) {
 });
 
 putOut.addEventListener("click", function (event) {
-    if(cars.size === 0){
-        tbody.innerHTML = "<br><b>No hay coches para arreglar</b>";
+    if(cars.empty()){
+        tbody.innerHTML = "<br><b>No hay coches para arreglar.</b>";
     } 
     else{
         if (cars.size() == 1) {

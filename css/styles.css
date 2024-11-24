@@ -465,7 +465,33 @@ button {
   display: flex;
 }
 
+.listContainer {
+  display: flex;
+  justify-content: space-between; 
+  gap: 5px; 
+}
 
+.list-container {
+  flex: 1; 
+  padding: 5px;
+  max-width: 45%; 
+}
 
+.list-container ul{
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  display: block;
+}
 
+.list-container ul li {
+  display: block; 
+  margin-bottom: 10px; 
+  clear: both;
+}
 
+.list-container ul li button {
+  display: block;  
+  width: 100%; 
+  margin-bottom: 5px;  
+}

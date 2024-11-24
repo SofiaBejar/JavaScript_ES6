@@ -14,7 +14,7 @@ export class List {
     }
 
     empty() {
-        return (this.list.length == 0);
+        return (this.list.length === 0);
     }
 
     size() {
